@@ -59,6 +59,53 @@
         </div>
       </header>
       <main class="content">
+        <section class="recipes"></section>
+        <section class="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">
+                Name *
+                <input
+                  type="name"
+                  class="form__input"
+                  placeholder="Name Surname"
+                  required
+                />
+              </label>
+              <label for="number" class="form__label">
+                Number of guests *
+                <input
+                  type="number"
+                  class="form__input"
+                  placeholder="1-8"
+                  required
+                />
+              </label>
+              <label for="datetime-local" class="form__label">
+                Date & Time *
+                <input type="datetime-local" class="form__input" />
+              </label>
+              <label for="input" class="form__label">
+                Your email *
+                <input
+                  type="input"
+                  class="form__input"
+                  placeholder="email@email.com"
+                  required
+                />
+              </label>
+            </fieldset>
+            <button type="submit" class="form__button">Book a table</button>
+            <label
+              for="terms-of-use"
+              class="form__label form__label_type_checkbox"
+            >
+              <input id="terms-of-use" type="checkbox" class="form__checkbox" />
+              I agree with the terms of use
+            </label>
+          </form>
+        </section>
         <section class="recipes">
           <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
