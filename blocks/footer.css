@@ -1,6 +1,6 @@
 .footer {
   padding: 60px 80px;
-  background-color: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: #ffffff;
   box-sizing: border-box;
 }
@@ -9,7 +9,6 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  background-color: #0a2850;
 }
 
 .footer__list {
@@ -59,7 +58,6 @@
 .footer__copyright {
   margin: 108px 0 0;
   padding: 80px;
-  background-color: #0a2850;
   color: #ffffff;
   padding: 80px;
 }
