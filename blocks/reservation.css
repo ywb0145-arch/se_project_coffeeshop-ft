@@ -4,11 +4,11 @@
   background-image: url(../images/background_reservation.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 100px, 0 120px;
 }
 
 .reservation__form {
   margin: 0 auto;
-  padding-bottom: 120px;
 }
 
 .reservation__title {
